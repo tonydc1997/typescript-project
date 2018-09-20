@@ -12,4 +12,8 @@ console.log(answer);
 let enteringFlowState: boolean = true;
 
 // Number 
-let someonesAge: number = 'hello'
+let someonesAge: number = 42;
+
+// String
+let person = 'Elon Musk'
+let favQuote: string = `I'd rather be optimistic and wrong than pessimistic and right - ${person}`
