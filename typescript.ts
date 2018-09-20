@@ -1,3 +1,3 @@
-function sum(a, b) {
+const sumOfTwoNumbers = (a, b) => {
   return a + b; 
 }

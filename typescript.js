@@ -1,3 +1,3 @@
-function sum(a, b) {
+var sumOfTwoNumbers = function (a, b) {
     return a + b;
-}
+};
