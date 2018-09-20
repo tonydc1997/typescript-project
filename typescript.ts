@@ -19,4 +19,5 @@ let person = 'Elon Musk'
 let favQuote: string = `I'd rather be optimistic and wrong than pessimistic and right - ${person}`
 
 // Array
-let pets: string[] = ['dogs', 'cats', 'birds', 'reptiles']
+let pets: string[] = ['dogs', 'cats', 'birds', 'reptiles'];
+let interestingPets: Array<string> = ['dragons', 'sharks', 'monkeys'];
