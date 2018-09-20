@@ -17,3 +17,6 @@ let someonesAge: number = 42;
 // String
 let person = 'Elon Musk'
 let favQuote: string = `I'd rather be optimistic and wrong than pessimistic and right - ${person}`
+
+// Array
+let pets: string[] = ['dogs', 'cats', 'birds', 'reptiles']
