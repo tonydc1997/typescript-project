@@ -27,3 +27,7 @@ let wizard: object = {
   name: 'Oz',
   power: 'Over 9,000!'
 }
+
+// Null and Undefined
+let woops: undefined = undefined;
+let invalid: null = null;
