@@ -34,4 +34,4 @@ let invalid: null = null;
 
 // Tuple 
 let orderedSequence: [string, number];
-orderedSequence = [3, 'fingers'];
+orderedSequence = ['fingers', 3];
