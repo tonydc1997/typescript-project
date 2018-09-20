@@ -21,3 +21,9 @@ let favQuote: string = `I'd rather be optimistic and wrong than pessimistic and 
 // Array
 let pets: string[] = ['dogs', 'cats', 'birds', 'reptiles'];
 let interestingPets: Array<string> = ['dragons', 'sharks', 'monkeys'];
+
+// Objects
+let wizard: object = {
+  name: 'Oz',
+  power: 'Over 9,000!'
+}
