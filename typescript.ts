@@ -31,3 +31,7 @@ let wizard: object = {
 // Null and Undefined
 let woops: undefined = undefined;
 let invalid: null = null;
+
+// Tuple 
+let orderedSequence: [string, number];
+orderedSequence = [3, 'fingers'];
