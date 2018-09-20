@@ -22,3 +22,15 @@ var wizard = {
 // Null and Undefined
 var woops = undefined;
 var invalid = null;
+// Tuple 
+var orderedSequence;
+orderedSequence = ['fingers', 3];
+// Enum
+var Size;
+(function (Size) {
+    Size[Size["Small"] = 1] = "Small";
+    Size[Size["Medium"] = 2] = "Medium";
+    Size[Size["Large"] = 3] = "Large";
+})(Size || (Size = {}));
+var sizeOfHands = Size[3];
+var sizeOfFeet = Size.Medium;

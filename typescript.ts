@@ -35,3 +35,8 @@ let invalid: null = null;
 // Tuple 
 let orderedSequence: [string, number];
 orderedSequence = ['fingers', 3];
+
+// Enum
+enum Size { Small = 1, Medium = 2, Large = 3 }
+let sizeOfHands: string = Size[3];
+let sizeOfFeet: number = Size.Medium;
