@@ -14,3 +14,11 @@ var favQuote = "I'd rather be optimistic and wrong than pessimistic and right - 
 // Array
 var pets = ['dogs', 'cats', 'birds', 'reptiles'];
 var interestingPets = ['dragons', 'sharks', 'monkeys'];
+// Objects
+var wizard = {
+    name: 'Oz',
+    power: 'Over 9,000!'
+};
+// Null and Undefined
+var woops = undefined;
+var invalid = null;
