@@ -11,3 +11,6 @@ var someonesAge = 42;
 // String
 var person = 'Elon Musk';
 var favQuote = "I'd rather be optimistic and wrong than pessimistic and right - " + person;
+// Array
+var pets = ['dogs', 'cats', 'birds', 'reptiles'];
+var interestingPets = ['dragons', 'sharks', 'monkeys'];
