@@ -43,3 +43,8 @@ let sizeOfFeet: number = Size.Medium;
 
 // Any - BE VERY CAUTIOUS !!!
 let whatever: any = "gibberish";
+
+// Void
+let sing = (): void => {
+  console.log('Sing Sing Sing!');
+}
