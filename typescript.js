@@ -48,8 +48,15 @@ var fightRobotArmy = function (robots) {
     console.log('Fight!');
 };
 // ^^This ^^ is the same as writing the function below.
-var fightRobotArmyRound2 = function (count, type, magic) {
+var fightRobotArmyRound2 = function (robots) {
     console.log('Fight!');
 };
 var dog = {};
 dog.count;
+// Function
+var fightRobotArmy2 = function (robots) {
+    console.log('Fight!');
+};
+var fightRobotArmyRound3 = function (robots) {
+    return 17;
+};

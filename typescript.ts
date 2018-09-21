@@ -85,3 +85,7 @@ dog.count;
 let fightRobotArmy2 = (robots: RobotArmy): void => {
   console.log('Fight!');
 }
+
+let fightRobotArmyRound3 = (robots: {count: number, type: string, magic: string}): number => {
+  return 17;
+}
