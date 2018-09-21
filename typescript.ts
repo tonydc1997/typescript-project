@@ -67,7 +67,7 @@ let fightRobotArmy = (robots: RobotArmy) => {
 
 // ^^This ^^ is the same as writing the function below.
 
-let fightRobotArmyRound2 = (count: number, type: string, magic: string) => {
+let fightRobotArmyRound2 = (robots: {count: number, type: string, magic: string}) => {
   console.log('Fight!');
 }
 
@@ -81,3 +81,7 @@ interface CatArmy {
 let dog = {} as CatArmy;
 dog.count;
 
+// Function
+let fightRobotArmy2 = (robots: RobotArmy): void => {
+  console.log('Fight!');
+}
