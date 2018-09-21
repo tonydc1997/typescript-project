@@ -70,3 +70,12 @@ let fightRobotArmy = (robots: RobotArmy) => {
 let fightRobotArmyRound2 = (count: number, type: string, magic: string) => {
   console.log('Fight!');
 }
+
+// Type Assertion 
+interface CatArmy {
+  count: number,
+  type: string,
+  memes: number
+}
+
+
