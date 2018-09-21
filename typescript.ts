@@ -96,5 +96,7 @@ class Animal {
   constructor(sound: string) {
     this.sing = sound;
   }
-
+  greet() {
+    return `Hello ${this.sing}`;
+  }
 }
