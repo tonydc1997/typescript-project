@@ -37,7 +37,7 @@ var sizeOfFeet = Size.Medium;
 // Any - BE VERY CAUTIOUS !!!
 var whatever = "gibberish";
 // Void
-var sing = function () {
+var singing = function () {
     console.log('Sing Sing Sing!');
 };
 // Never 
@@ -60,3 +60,16 @@ var fightRobotArmy2 = function (robots) {
 var fightRobotArmyRound3 = function (robots) {
     return 17;
 };
+// Class 
+var Animal = /** @class */ (function () {
+    function Animal(sound) {
+        this.sing = 'lalala';
+        this.sing = sound;
+    }
+    Animal.prototype.greet = function () {
+        return "Hello " + this.sing;
+    };
+    return Animal;
+}());
+var lion = new Animal('RAAAWWWWRRR');
+console.log(lion.greet());

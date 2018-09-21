@@ -100,3 +100,6 @@ class Animal {
     return `Hello ${this.sing}`;
   }
 }
+
+let lion = new Animal('RAAAWWWWRRR');
+console.log(lion.greet());
