@@ -54,9 +54,19 @@ let error = (): never => {
   throw Error('ooops');
 }
 
-// Interface 
+// Interface : allows us to create types with their own properties, and can be used anywhere in the codebase
 interface RobotArmy {
   count: number,
   type: string,
   magic: string
+}
+
+let fightRobotArmy = (robots: RobotArmy) => {
+  console.log('Fight!');
+}
+
+// ^^This ^^ is the same as writing the function below.
+
+let fightRobotArmyRound2 = (count: number, type: string, magic: string) => {
+  console.log('Fight!');
 }

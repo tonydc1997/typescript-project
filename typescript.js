@@ -36,3 +36,18 @@ var sizeOfHands = Size[3];
 var sizeOfFeet = Size.Medium;
 // Any - BE VERY CAUTIOUS !!!
 var whatever = "gibberish";
+// Void
+var sing = function () {
+    console.log('Sing Sing Sing!');
+};
+// Never 
+var error = function () {
+    throw Error('ooops');
+};
+var fightRobotArmy = function (robots) {
+    console.log('Fight!');
+};
+// ^^This ^^ is the same as writing the function below.
+var fightRobotArmyRound2 = function (count, type, magic) {
+    console.log('Fight!');
+};
