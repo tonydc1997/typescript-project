@@ -73,3 +73,4 @@ var Animal = /** @class */ (function () {
 }());
 var lion = new Animal('RAAAWWWWRRR');
 console.log(lion.greet());
+console.log(lion.sing);

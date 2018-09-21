@@ -92,14 +92,15 @@ let fightRobotArmyRound3 = (robots: {count: number, type: string, magic: string}
 
 // Class 
 class Animal {
-  sing: string = 'lalala';
+  public sing: string = 'lalala';
   constructor(sound: string) {
     this.sing = sound;
   }
-  greet() {
+  greet(): string {
     return `Hello ${this.sing}`;
   }
 }
 
 let lion = new Animal('RAAAWWWWRRR');
 console.log(lion.greet());
+console.log(lion.sing);
