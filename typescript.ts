@@ -89,3 +89,12 @@ let fightRobotArmy2 = (robots: RobotArmy): void => {
 let fightRobotArmyRound3 = (robots: {count: number, type: string, magic: string}): number => {
   return 17;
 }
+
+// Class 
+class Animal {
+  sing: string = 'lalala';
+  constructor(sound: string) {
+    this.sing = sound;
+  }
+
+}
