@@ -78,4 +78,6 @@ interface CatArmy {
   memes: number
 }
 
+let dog = {} as CatArmy;
+dog.count;
 
