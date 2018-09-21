@@ -40,3 +40,6 @@ orderedSequence = ['fingers', 3];
 enum Size { Small = 1, Medium = 2, Large = 3 }
 let sizeOfHands: string = Size[3];
 let sizeOfFeet: number = Size.Medium;
+
+// Any - BE VERY CAUTIOUS !!!
+let whatever: any = "gibberish";

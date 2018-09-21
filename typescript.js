@@ -34,3 +34,5 @@ var Size;
 })(Size || (Size = {}));
 var sizeOfHands = Size[3];
 var sizeOfFeet = Size.Medium;
+// Any - BE VERY CAUTIOUS !!!
+var whatever = "gibberish";
