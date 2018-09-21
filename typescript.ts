@@ -48,3 +48,8 @@ let whatever: any = "gibberish";
 let sing = (): void => {
   console.log('Sing Sing Sing!');
 }
+
+// Never 
+let error = (): never => {
+  throw Error('ooops');
+}
