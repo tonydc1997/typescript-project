@@ -44,7 +44,7 @@ let sizeOfFeet: number = Size.Medium;
 // Any - BE VERY CAUTIOUS !!!
 let whatever: any = "gibberish";
 
-// Void
+// Void : Used where there are no return statements
 let singing = (): void => {
   console.log('Sing Sing Sing!');
 }
