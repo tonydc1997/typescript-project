@@ -104,3 +104,6 @@ class Animal {
 let lion = new Animal('RAAAWWWWRRR');
 console.log(lion.greet());
 console.log(lion.sing);
+
+// Union
+let quiteTheDebacle: string | number | boolean = true;
